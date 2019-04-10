@@ -119,8 +119,8 @@ und Europa im Mittelmeer. Dafür richten wir ein Cockroach Clusters mit 2 Region
 3. Zur Verwendung der geographischen Partionierung ist eine Enterprise Lizenz erforderlich. Zu Testzwecken kann eine Trial License eingespielt werden.
 
     ```sql
-    SET CLUSTER SETTING cluster.organization = 'Codecentric';
-    SET CLUSTER SETTING enterprise.license = 'crl-0-EKTz1OYFGAIiC0NvZGVjZW50cmlj';
+    SET CLUSTER SETTING cluster.organization = 'Cockroach Labs Training';
+    SET CLUSTER SETTING enterprise.license = 'crl-0-EIDA4OgGGAEiF0NvY2tyb2FjaCBMYWJzI';
     ```
 
 4. Partitionieren der Schiffsdaten anhand ihres Einsatzgebiets. Anschließend werden den Partitionen die entsprechenden Zonen zugewiesen. Dabei soll der *Leaseleader* im Datacenter mit den beiden Nodes laufen.
